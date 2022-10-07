@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Page</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <section class="showbody">
+
+        
+        <header>
+            <h1 class="logo">Intenet of Things</h1>
+            <h3>Never Stop Learning</h3>
+            <div class="toggle"></div>
+        </header>
+        
+        <div class="overlay"></div>
+
+        <div class="mainbody">
+            <div class="p1">
+                <img src="./drone.jpg" alt="Drones News">
+                <h1>DroneSeed's Six-Rotor Heavy-Duty Drones Aim to Offer Fast, 
+                    Affordable Wildfire Reforestation</h1>
+                
+                <h3>Using custom-built heavy-lift uncrewed aerial vehicles (UAVs),
+                    DroneSeed seeds trees from the air wherever they're needed</h3>
+                
+                <p>Drones are seeing increasing use in industry for everything from site surveys to last-mile delivery services,
+                    but DroneSeed is putting its custom craft to work on a different problem:
+                    rapidly re-seeding forests after a wildfire, while providing businesses with a way to offset their carbon emissions</p>
+                
+                <p>"DroneSeed was founded in 2016 with a mission of making reforestation scalable to mitigate the worst effects of climate change,"
+                    Cassie Meigs, senior director of client solutions at DroneSeed, tells us. "No off-the-shelf aircraft or deployers would work, 
+                    so engineers worked for several years to develop a custom-designed, heavy-lift drone platform, software, charging system, and deployers. 
+                    The first prototype of the seed enablement technology using biomimicry was utilized in 2019. The next two years were spent refining the product and scaling operational capacity."</p>
+            </div>
+
+            <div class="p2">
+                <img src="./health.jpg" alt="Health">
+                <h1>OFilm to Deploy Uhnder 4D Digital Radar in 2023 to Advance Automotive Safety in China</h1>
+                <p>Uhnder, a leader in digital imaging radar technology for the automotive industry, announced that OFilm Group, a leading provider of intelligent driving solutions, has selected Uhnder’s 
+                    Digital Code Modulation (DCM) technology to achieve best-in-class advanced driver assistance systems (ADAS) to advance automotive safety in China. OFilm will launch a digital radar that
+                     delivers superior perception compared to today’s analog radar, especially at night or when visibility is impaired due to rain, fog, dust or sun glare</p>
+
+                <p>“Uhnder’s digital imaging radar is the most powerful solution for resolving the limitations of legacy radar sensors,” said Longbing Zhang, vice president of advanced technology, OFilm Automotive.
+                     “Today’s radar sensors are analog-based and suffer performance restrictions, such as low resolution and interference between adjacent radars. OFilm can use Uhnder’s
+                      technology to solve these problems and create systems that will improve automotive safety for everyone.”</p>
+            </div>
+
+            <div class="p3">
+                <img src="./feature.jpg" alt="feature">
+                <h1>Unique Features Increase Test Efficiency and Flexibility of Rohde & Schwarz ATS1500C</h1>
+                <p>The R&S ATS1500C antenna test system from Rohde & Schwarz offers a new temperature test 
+                    option and a new feed antenna. These additional features enable temperature-controlled 
+                    measurements in a wide temperature range as well as parallel access to both polarizations, 
+                    increasing test efficiency and flexibility. The solution will be shown 
+                    at EuMW from September 27 to 29, 2022 at booth D18 of the Milano Convention Centre</p>
+
+                <p>The movable R&S®ATS1500C is a compact antenna test range (CATR) based antenna test chamber.
+                     It is carefully designed to eliminate ghost targets within the chamber during target simulation 
+                     tests and includes a highly accurate positioner for angular measurements</p>
+            </div>
+
+            <div class="p4">
+                <img src="./car.jpg" alt="car">
+                <h1>Renesas to Acquire Steradian to Expand Its Reach in the Radar Market</h1>
+
+                <p>Renesas Electronics Corporation announced that it has entered into
+                     a definitive agreement to acquire Steradian Semiconductors Private Limited, 
+                     a fabless semiconductor company based in Bengaluru, India, that provides
+                      4D imaging radar solutions, in an all-cash transaction. The acquisition is 
+                      expected to close by the end of 2022, subject to customary closing conditions. 
+                      The acquisition of Steradian's radar technology will enable Renesas to extend its reach
+                       in the radar market and boost its automotive and industrial sensing solution offerings</p>
+
+                <p>With the advancements of advanced driver assistance systems (ADAS) in the automotive market, 
+                    automotive sensor fusion demand is growing to allow precise and accurate object detection of vehicles’ 
+                    surroundings by combining data from multiple sensors, such as cameras, radar and light detection and 
+                    ranging (LiDAR). Radar in particular accurately detects objects over long distances, day or night, 
+                    even during harsh weather or other adverse environmental conditions. For these reasons, radar is
+                     considered an essential sensing technology for ADAS, and the number of radar sensors installed
+                      in vehicles is expected to triple over the next five years according to Strategy Analytics.
+                       To respond to such growth potential, Renesas is expanding its automotive product portfolio 
+                       with Steradian’s radar technology.</p>
+            </div>
+
+            <a href="https://www.iot.com">explore more</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="facebook.jpg" alt=""></a></li>
+            <li><a href="#"><img src="twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="ig.jpg" alt=""></a></li>
+        </ul>
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Emerging Tech</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showbody')
+
+        menuToggle.addEventListener('click', ()=> {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</body>
+</html>
